@@ -1,0 +1,6 @@
+tmp/cache/models/
+tmp/cache/persistent/
+prj.sublime-project
+prj.sublime-workspace
+tags
+.zedstate

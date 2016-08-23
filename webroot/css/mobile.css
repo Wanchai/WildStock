@@ -1,0 +1,219 @@
+body, p, div {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-shadow: none;
+}
+
+h2 {
+    margin: 0 0 5px;
+    background-color: #2A98FF;
+    padding: 8px;
+    color: #FFFFFF;
+    font-size: 18px;
+    clear: both;
+}
+h3 {
+    margin: 0 0 3px;
+    padding: 3px;
+    color: #808080;
+    font-size: 18px;
+}
+p{
+    margin: 0;
+}
+td{
+    margin: 5px 0;
+    padding: 5px 0;
+}
+a {
+    color: #333333;
+    text-decoration: none;
+}
+.content {
+    margin-bottom: 50px;
+}
+.header {
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+}
+    .cash-amount {
+        padding: 5px;
+    }
+.footer {
+    background-color: #000000;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.footer a {
+    padding: 7px 0 2px;
+}
+.box {
+    margin-bottom: 10px;
+}
+.message{
+    background-color: #FFCC00;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0 auto 2px auto;
+    padding: 5px;
+    text-align: center;
+}
+.td-align-center{
+    text-align: center;
+}
+
+.menu-home, .menu-stocks, .menu-me, .menu-about {
+    display: block;
+    width: 24%;
+    float: left;
+    text-align: center;
+    
+}
+
+.book .box-titre div {
+    float:right;
+}
+.book .total {
+    font-weight: bold;
+    margin: 10px;
+}
+.stock-details p {
+    font-size: 14px;
+    color: #808080;
+}
+    .stock-details .stock-comment{
+       font-style: italic; 
+       text-align: center;
+    }
+    .stock-details .var-value {
+        text-align: center;
+    }
+        .var-value .stock-variation {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .var-value .stock-value {
+            font-size: 28px;
+            font-weight: bold;
+            
+        }
+    .stock-details .book-comment {
+        margin-top: 5px;
+        text-align: center;
+    }
+        .stock-book1{
+            color: #2A98FF;
+            font-size: 18px;
+            font-style: italic; 
+            font-weight: bold;
+        }
+        .stock-book2{
+            font-size: 18px;
+            font-style: italic; 
+            font-weight: bold;
+        }
+
+    .stock-details .add-offer{
+        background-color: transparent;
+    }
+    .inside-offers {
+        clear: both;
+        margin: 0 auto 0 auto;
+        width: 280px;
+    }
+        .inside-offers h3 {
+            text-align: center;
+        }
+        .inside-offers div {
+            margin: 0 0 30px;
+        }
+        .inside-offers p{
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .inside-offers .buy-offers{
+            float: left;
+            width: 140px;
+        }
+        .inside-offers .sell-offers{
+            float: left;
+            width: 140px;
+        }
+        .inside-offers a {
+            color: #333333 !important;
+            display: block;
+            font-size: 16px;
+            font-weight: bold;
+            height: 26px;
+            margin-top: 6px;
+        }
+            .inside-offers .of-arrow1{
+                background: url('../img/elements/arrow_12.png') no-repeat;
+                padding-left: 12px;
+            }
+            .inside-offers .of-arrow2{
+                background: url('../img/elements/arrow_16.png') no-repeat;
+                background-position: 10px 0;
+                padding-right: 13px;
+                text-align: right;
+            }
+        .offers-box .yours-titre {
+            background-color: #f2f2f2;
+            color: #4d4d4d;
+            font-size: 28px;
+            margin: 3px 0;
+            padding: 5px 0;
+            text-align: center;
+        }
+            .inside-offers .of-arrow3{
+                background: url('../img/elements/arrow_14.png') no-repeat;
+                padding-left: 12px;
+            }
+            .inside-offers .of-arrow4{
+                background: url('../img/elements/arrow_15.png') no-repeat;
+                background-position: 10px 0;
+                padding-right: 13px;
+                text-align: right;
+            }
+    .offers-footer {
+        clear: both;
+    }
+        .offers-footer .delete-all {
+            color: #ffffff !important;
+            display: block;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top:-2px;
+            padding: 5px 0;
+            text-align: center;
+            width: 100%;
+        }
+        .offers-footer .no-offers {
+            text-align: center;
+        }
+        
+    .sell-offer {
+        padding: 10px 20px ;
+    }
+    .sell-offer .addoffer-stock {
+        font-weight: bold;
+    }
+    .sell-offer .qty-at-price {
+        text-align: center;
+        font-weight: bold;
+    }
+    
+.button, input[type="submit"]{
+    background-color: #FFCC00;
+    border-style: hidden;
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px; 
+    text-decoration: none; 
+    display: inline-block;
+}

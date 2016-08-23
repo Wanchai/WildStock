@@ -1,0 +1,1 @@
+﻿https://www.facebook.com/dialog/oauth?client_id=&redirect_uri=http://apps.facebook.com/wildstocks/
