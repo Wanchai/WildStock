@@ -6,3 +6,5 @@ It's a virtual market where the player's decisions have a real impact on the sto
 You can buy and sell stocks, manage your portfolio, follow the price evolution...
 
 All stocks are virtual and not indexed on any real life value.
+
+[Click here for more...](http://www.thomasmalicet.com/projects/wildstocks/).
